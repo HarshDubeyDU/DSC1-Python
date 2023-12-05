@@ -30,3 +30,5 @@ for i in range(len(file_data_write)):
         file1.write(file_data_write[i] + "\n")
     else:
         file2.write(file_data_write[i] + "\n")
+
+file.close()
